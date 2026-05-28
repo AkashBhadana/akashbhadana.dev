@@ -78,7 +78,7 @@ export default function Hero() {
           Akash Bhadana
         </h1>
 
-        <div className="animate-fade-up delay-3 text-2xl md:text-3xl text-blue-400 font-mono mb-6 h-10">
+        <div className="animate-fade-up delay-3 text-2xl md:text-3xl text-blue-400 font-mono mb-8 h-12">
           {displayed}
           <span className="cursor-blink text-blue-400">|</span>
         </div>
