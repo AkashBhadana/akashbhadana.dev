@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0f]">
       <Navbar />
-      <Hero />
-      <Projects />
-      <Experience />
-      <Certifications />
-      <Contact />
+      <section id="home"><Hero /></section>
+      <section id="projects"><Projects /></section>
+      <section id="experience"><Experience /></section>
+      <section id="certifications"><Certifications /></section>
+      <section id="contact"><Contact /></section>
     </main>
   )
 }
